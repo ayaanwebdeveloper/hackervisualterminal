@@ -25,7 +25,29 @@ body::-webkit-scrollbar-thumb {
     font-size: 78px ;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 280px;
-    color: white;
 
+      color: #ff0000;
+      text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+      animation: flicker 0.15s infinite alternate;
+}
+.matrix-text {
+    color: #00ff00;
+    background-color: black;
+    font-family: 'Courier New', monospace;
+    padding: 25px;
+    font-size: 18px; /* Thoda bada */
+    line-height: 1.6;
+    text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
+    animation: flicker 0.15s infinite alternate;
+}
+
+@keyframes flicker {
+    from { opacity: 1; }
+    to { opacity: 0.85; }
+}
+
+
+@keyframes flicker {
+    from { opacity: 1; text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000; }
+    to { opacity: 0.7; text-shadow: 0 0 2px #ff0000, 0 0 5px #ff0000; }
 }
