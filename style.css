@@ -1,0 +1,31 @@
+body{
+    height: 200vh;
+    background-color: black;
+}
+body::-webkit-scrollbar {
+    width: 20px;
+      
+   
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 20px;
+
+    /* Yeh padding trick height choti dikhata hai thumb ki */
+    height: 80px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+.cs{
+    font-size: 78px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 280px;
+    color: white;
+
+}
