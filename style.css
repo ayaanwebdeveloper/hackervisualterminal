@@ -1,5 +1,5 @@
 body{
-    height: 200vh;
+    height: 700vh;
     background-color: black;
 }
 body::-webkit-scrollbar {
@@ -17,7 +17,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 
     /* Yeh padding trick height choti dikhata hai thumb ki */
-    height: 80px;
+    height: 10px;
     border: 3px solid transparent;
     background-clip: content-box;
 }
